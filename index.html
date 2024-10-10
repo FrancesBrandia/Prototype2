@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display SVG Logos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="home">
+        <h2>Logos</h2>
+    </section>
+    <section id="search">
+        <button class="filter-button active" data-filter="all">View All</button> <!-- Added 'active' class here -->
+        <button class="filter-button" data-filter="Brand">Brand</button>
+        <button class="filter-button" data-filter="Sub-Brand">Sub-Brand</button>
+        <button class="filter-button" data-filter="Projects">Applications</button>
+        <button class="filter-button" data-filter="Projects">Projects</button>
+        <input type="text" id="logo-search" placeholder="Search logos..." />
+
+    </section>
+
+    <section id="logos">
+        <div id="svg-container"></div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
